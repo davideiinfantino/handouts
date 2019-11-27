@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"it.unimi.di.prog2.h02","c":"SalveMondo","l":"main(String[])","u":"main(java.lang.String[])","k":"6"},{"p":"it.unimi.di.prog2.h02","c":"SalveMondo","l":"SalveMondo()","u":"%3Cinit%3E()","k":"3"}];updateSearchResults();
