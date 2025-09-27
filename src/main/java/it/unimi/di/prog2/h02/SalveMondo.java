@@ -1,3 +1,4 @@
+
 /*
 
 Copyright 2025 Massimo Santini
@@ -20,7 +21,6 @@ along with this file.  If not, see <https://www.gnu.org/licenses/>.
 */
 
 package it.unimi.di.prog2.h02;
-
 /** La prima classe Java. */
 public class SalveMondo {
 
