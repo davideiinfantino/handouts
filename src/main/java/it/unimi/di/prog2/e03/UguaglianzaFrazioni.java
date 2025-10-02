@@ -26,9 +26,31 @@ public class UguaglianzaFrazioni {
   /** Costruttore privato per impedire l'instanziazione. */
   private UguaglianzaFrazioni() {}
 
-  /**
+   /**
    * Scrivere il metodo main che riceva come parametri sulla linea di comando quattro interi
    * corrispondenti rispettivamente a numeratore e denominatore di due frazioni ed emetta nel flusso
    * d'uscita "uguali" se le frazioni sono uguali, oppure "diverse".
    */
+  public static void main(String[] args) {
+    if (args.length != 4) {
+      IO.println("Devono essere forniti quattro argomenti.");
+      return;
+    }
+    try {
+      int num1 = Integer.parseInt(args[0]);
+      int den1 = Integer.parseInt(args[1]);
+      int num2 = Integer.parseInt(args[2]);
+      int den2 = Integer.parseInt(args[3]);
+      if (num1 * den2 == num2 * den1) {
+        IO.println("uguali");
+      } else {
+        IO.println("diverse");
+      }
+    } catch (Exception e) {
+      IO.println("Tutti gli argomenti devono essere interi.");
+    }
+  }
+  
+ 
+
 }
